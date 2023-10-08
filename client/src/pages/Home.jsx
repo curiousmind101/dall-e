@@ -63,12 +63,12 @@ const Home = () => {
   return (
     <section className='max-w-8xl max-auto'>
        <div>
-         <div className='relative top-0 left-0 ml-0 text-white text-center w-full h-full flex-col z-10'>
-            <h1 className='absolute mt-10 ml-0 text-[48px] font-extrabold object-contain'>
+         {/* <div className='relative top-0 left-0 ml-0 text-white text-center w-full h-full flex-col z-10 flex-wrap'>
+            <h1 className='absolute text-center text-lg font-extrabold object-contain'>
             &quot;Creativity is seeing what others see and thinking what no one else ever thought.&quot; - Albert Einstein
             </h1>
          </div>
-         <div className="bg-[#111414] opacity-80 relative top-0 left-0 h-full w-full"></div>
+         <div className="bg-[#111414] opacity-80 relative top-0 left-0 h-full w-full"></div> */}
          <video src={videoBg} autoPlay loop muted className="w-full h-[30vh] relative left-0 top-0 object-cover rounded-xl contrast-50"/>
        </div>
        <div className='text-center'>
